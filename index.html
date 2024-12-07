@@ -1,16 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head class="">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Glass UI</title>
-</head>
+  </head>
 
-<body>
-    <header>
-
-    </header>
-</body>
-
+  <body class="">
+    <div
+      class="bg-cover"
+      style="background-image: url(/src/assets/images/bg-main.PNG)"
+    >
+      <header
+        class="w-full flex flex-row justify-between items-center px-20 py-3"
+      >
+        <img src="/src/assets/images/logo.svg" alt="Logo da Glass UI" />
+        <div class="flex gap-4 text-white text-sm font-medium">
+          <a href="#">Dashboard</a>
+          <a href="#">Team</a>
+          <a href="#">Services</a>
+          <a href="#">Calendar</a>
+        </div>
+        <button
+          class="bg-green-900 text-white px-3 py-2 rounded-lg border-b-neutral-900 font-medium text-sm"
+        >
+          Pricing & FAQ
+        </button>
+      </header>
+      <main class="flex flex-col items-center justify-center mt-20">
+        <div class="flex flex-col items-center justify-center gap-10">
+          <div class="flex flex-col gap-5">
+            <h1 class="font-extrabold text-6xl text-white text-center">
+              Increase sales,
+              <br />
+              not your workload.
+            </h1>
+            <p class="text-center font-normal text-gray-400">
+              Bring your idea to life in no time. The prototyping solution for
+              all your needs. For UX designers,<br />
+              entrepreneurs, product managers, marketers, and anyone with a
+              great idea.
+            </p>
+          </div>
+          <div class="flex gap-8 items-center justify-center">
+            <button class="bg-white px-5 py-3 rounded-lg text-base font-medium">
+              Get started
+            </button>
+            <div class="flex gap-2 items-center">
+              <p class="text-white font-semibold text-xl">See how it works</p>
+              <button>
+                <img
+                  src="/src/assets/images/play-icon.svg"
+                  alt="Ícone do Play"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-32 flex gap-6">
+          <div class="p-6 w-[464px] flex flex-col bg-white rounded-lg">
+            <div class="flex flex-col gap-4">
+              <img
+                src="/src/assets/images/lampada-icon.svg"
+                alt="Ícone de Lâmpada"
+                class="w-12"
+              />
+              <h5 class="font-semibold text-black">Ideas and Concepts</h5>
+              <p class="text-base">
+                You can rely on our amazing features list and also our customer
+                services will be great experience for your team and company.
+              </p>
+            </div>
+            <div class="py-6">
+              <button class="flex items-center text-base font-medium gap-2">
+                Read more
+                <img
+                  src="/src/assets/images/seta-right.svg"
+                  alt="Ícone de Seta"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="p-6 w-[464px] flex flex-col bg-white rounded-lg">
+            <div class="flex flex-col gap-4">
+              <img
+                src="/src/assets/images/grapich-icon.svg"
+                alt="Ícone de Gráfico"
+                class="w-12"
+              />
+              <h5 class="font-semibold text-black">Event Marketing</h5>
+              <p class="text-base">
+                Promote your event or your business with beautiful, easy to
+                build landing pages designed to drive registrations and ticket
+                sales
+              </p>
+            </div>
+            <div class="py-6">
+              <button class="flex items-center text-base font-medium gap-2">
+                Read more
+                <img
+                  src="/src/assets/images/seta-right.svg"
+                  alt="Ícone de Seta"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="p-6 w-[464px] flex flex-col bg-white rounded-lg">
+            <div class="flex flex-col gap-4">
+              <img
+                src="/src/assets/images/eye-icon.svg"
+                alt="Ícone de Olho"
+                class="w-12"
+              />
+              <h5 class="font-semibold text-black">Onsite</h5>
+              <p class="text-base">
+                Optimize your in-person experience with best-in-class
+                capabilities like badge printing and lead retrieval and grow
+                your business
+              </p>
+            </div>
+            <div class="py-6">
+              <button class="flex items-center text-base font-medium gap-2">
+                Read more
+                <img
+                  src="/src/assets/images/seta-right.svg"
+                  alt="Ícone de Seta"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
